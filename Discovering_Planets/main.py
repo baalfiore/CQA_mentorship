@@ -42,7 +42,7 @@ if __name__ =="__main__":
         elif hasWater == "false":
             print("The planet has no water.")
             isHabitable = False
-        elif hasMagField == "true":
+        elif hasMagField == "false":
             print("The planet has no magnetic field.")
             isHabitable = False
         elif eccentricty > .6:
